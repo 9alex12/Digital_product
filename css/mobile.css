@@ -1,0 +1,20 @@
+@media (max-width: 600px) {
+  .products{
+    display: inherit;
+    height: auto;
+  }
+  .product{
+    margin-top:auto;
+  }
+  .main_section{
+    padding: 4%;
+  }
+  .gustos{
+    display: inherit;
+    /* PASA LA ORGANIZACION DE HORIZONTAL A VERTICAL RESPONSIVE gustos*/
+  }
+  .players{
+    display: inherit;
+      /* PASA LA ORGANIZACION DE HORIZONTAL A VERTICAL RESPONSIVE players */
+  }
+}

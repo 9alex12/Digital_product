@@ -1,0 +1,12 @@
+body{
+  background-color:var(--black-color);
+  text-align: center;
+  color: var(--white-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; <!-Ocupa toda la pantalla y ayuda a centrar-->
+}
+.content_paypal a{
+color: var(--green-color); <!-Le pone a todos los "a" dentro de content esa clase"-->
+}

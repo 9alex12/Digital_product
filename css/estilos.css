@@ -19,6 +19,15 @@ html,body{
   font-family: Helvetica;
 }
 
+footer{
+  color: var(--white-color);
+  display: flex;
+  background-color: var(--black-color);
+  padding: var(--space);
+  justify-content:space-between;
+  align-items:stretch;
+}
+
 p, label{
 font-size: var(--normal);
 }
@@ -27,10 +36,8 @@ nav{
   display: flex;
   background-color: var(--green-color);
   padding: var(--space);
-  color: var(--white-color);
   justify-content:space-between;
   align-items:stretch;
-
 }
 
 nav ul{

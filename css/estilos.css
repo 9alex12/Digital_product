@@ -26,6 +26,7 @@ footer{
   padding: var(--space);
   justify-content:space-between;
   align-items:stretch;
+  width: 100%;
 }
 
 p, label{

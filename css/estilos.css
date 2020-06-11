@@ -40,13 +40,17 @@ nav ul{
 }
 nav li{
   padding-left: : 20px;
-  list-style: none;
+  list-style: none; /*Puntos de la lista en cada item*/
 }
 
 nav li a{
   color: var(--black-color);
-  text-decoration: none;
+  text-decoration: none; /*Linea de los links para quitarla*/
   padding: 10px;
+}
+
+a{
+  text-decoration: none;
 }
 nav li a:hover{
   color: var(--white-color);
@@ -63,16 +67,20 @@ nav li a:hover{
    background-position: center top;
    padding: 15%;
    display: flex;
+   justify-content: center; /*centra las imagenes*/
 }
 
 .product{
   padding: var(--space);
   margin-top: -270px;
+
 }
 .product .content{
   background-color: var(--white-color);
   padding: 15px;
   box-shadow: var(--box);
+  text-align: center;
+
 }
 .img_content{
   text-align: center;
@@ -86,7 +94,10 @@ nav li a:hover{
   color:var(--white-color);
   border: 0;
   cursor: pointer;
-  border-radius: 2px
+  border-radius: 2px;
+  text-align: center;
+  box-sizing: border-box;  /*Arregla el padding dandole una referencia*/
+  list-style: none;
 }
 .main_button:hover{
   background-color: #384594;
